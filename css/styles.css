@@ -756,13 +756,13 @@ img {
 .checkbox {
   margin-bottom: 24px;
 }
-.user-privacy {
+.checkbox-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-.span-pravicy {
+.checkbox-box {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -775,13 +775,13 @@ img {
   justify-content: center;
   fill: transparent;
 }
-.visually-hidden:checked + .span-pravicy {
+input:checked + .user-privacy .span-privacy {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
 
-.link-privacy {
+.privacy-link {
   color: #4d5ae5;
 }
 /* submit-btn-popup */
