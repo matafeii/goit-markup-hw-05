@@ -458,21 +458,26 @@
           </ul>
         </div>
         <div class="footer-form">
-          <p class="subscribe">Subscribe</p>
-          <form class="subscribe-form" action="#" method="post">
-            <label for="email" class="visually-hidden">Email</label>
-            <input
-              name="email"
-              type="email"
-              placeholder="E-mail"
-              class="input-input"
-              id="email"
-              required
-            />
-            <button class="subscribe-btn" type="submit">
+          <p class="subscribe-text">Subscribe</p>
+          <form class="subscribe-form" action="#">
+            <label class="subscribe-label">
+              <input
+                class="subscribe-input"
+                type="email"
+                name="user-email"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button class="subscribe-button" type="submit">
               Subscribe
-              <svg class="icon-send" width="24" height="24">
-                <use href="./images/send.svg#icon-send"></use>
+              <svg
+                class="subscribe-icon"
+                width="24"
+                height="24"
+                aria-hidden="true"
+              >
+                <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
           </form>
