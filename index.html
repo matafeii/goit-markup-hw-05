@@ -498,10 +498,11 @@
         <p class="form-popup-text">
           Leave your contacts and we will call you back
         </p>
+        <!-- form username -->
         <form>
           <div class="input-data">
-            <label for="label-name">Name </label>
-            <div class="form-input-name">
+            <label for="user-name" class="label-name">Name </label>
+            <div class="form-input-name-phone-email">
               <input
                 id="user-name"
                 type="text"
@@ -515,6 +516,46 @@
                 aria-hidden="true"
               >
                 <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <!-- form phone -->
+          <div class="input-data">
+            <label for="user-phone" class="label-name">Phone</label>
+            <div class="form-input-name-phone-email">
+              <input
+                id="user-phone"
+                type="tel"
+                name="user-phone"
+                class="input-name-popup"
+              />
+              <svg
+                class="icon-user-popup"
+                width="18"
+                height="24"
+                aria-hidden="true"
+              >
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <!-- form email -->
+          <div class="input-data">
+            <label for="user-email" class="label-name">Email</label>
+            <div class="form-input-name-phone-email">
+              <input
+                id="user-email"
+                type="email"
+                name="user-email"
+                class="input-name-popup"
+              />
+              <svg
+                class="icon-user-popup"
+                width="18"
+                height="24"
+                aria-hidden="true"
+              >
+                <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
           </div>
